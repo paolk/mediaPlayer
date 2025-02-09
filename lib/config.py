@@ -1,0 +1,24 @@
+__all__ = ['GUI_WIDTH', 'GUI_HEIGHT', 'DOCK_HEADER_HEIGHT', 'DOCK_DATA_WIDTH', 'BG_COLOR',
+           'MOV_LAYOUT_ROWS', 'MOV_LAYOUT_COLS', 'MOV_LAYOUT_TOTAL',
+
+           'DEV_THUMB', 'BG_COLOR1']
+
+
+GUI_WIDTH = 1100
+GUI_HEIGHT = 800
+
+DOCK_HEADER_HEIGHT = 150
+DOCK_DATA_WIDTH = 400
+
+BG_COLOR = '#262626'
+BG_COLOR1 = 'gray'
+
+
+MOV_LAYOUT_ROWS = 3
+MOV_LAYOUT_COLS = 6
+MOV_LAYOUT_TOTAL = MOV_LAYOUT_ROWS * MOV_LAYOUT_COLS
+
+
+# --- Development section --- #
+
+DEV_THUMB = "/mnt/mediathek/development/thumbs/"
